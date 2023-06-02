@@ -20,3 +20,4 @@ Expected Output :
 - - - - - - - - - -  
 
 4. Write a Java program to calculate the average value of array elements.
+30. Write a Java program to check if an array of integers is without 0 and -1.
