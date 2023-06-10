@@ -18,7 +18,7 @@ public class MyFrame extends JFrame implements ActionListener{
 		label.setVisible(false);
 		
 		button = new JButton();
-		button.setBounds(120, 75, 250, 100);
+		button.setBounds(120, 75, 250, 150);
 		button.addActionListener(this);
 		button.setText("I'm a button!");
 		
@@ -27,9 +27,9 @@ public class MyFrame extends JFrame implements ActionListener{
 		button.setHorizontalTextPosition(JButton.CENTER);
 		button.setVerticalTextPosition(JButton.BOTTOM);
 		button.setFont(new Font("Comic Sans",Font.BOLD,25));
-		button.setIconTextGap(-15);
-		button.setForeground(Color.cyan);
-		button.setBackground(Color.lightGray);
+		// button.setIconTextGap(-5);
+		button.setForeground(Color.PINK);
+		button.setBackground(Color.BLACK);
 		button.setBorder(BorderFactory.createEtchedBorder());
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
