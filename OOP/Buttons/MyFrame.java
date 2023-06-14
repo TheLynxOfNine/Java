@@ -38,13 +38,15 @@ public class MyFrame extends JFrame implements ActionListener{
 		this.setVisible(true);
 		this.add(button);
 		this.add(label);
+		this.setTitle("Daisuke Button");
+		this.setLocationRelativeTo(null); // places window in the middle of the screen
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==button) {
 			System.out.println("poo");
-			//button.setEnabled(false);
+			// button.setEnabled(false); // makes a one click button
 			label.setVisible(true);
 		}	
 	}
